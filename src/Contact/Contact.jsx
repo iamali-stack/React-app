@@ -1,13 +1,10 @@
 import React from 'react'
 import './Contact.css'
-import { Helmet } from 'react-helmet-async';
 
 export default function Contact() {
   return (
     <>
-     <Helmet>
-        <title>Contact</title>
-      </Helmet>
+
       <div className="contact-section">
         <div className="contact-header">
           <h1>CONTACT SECTION</h1>

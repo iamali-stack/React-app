@@ -18,9 +18,7 @@ export default function Portfolio() {
 
   return (
     <>
-     <Helmet>
-        <title>Portfolio</title>
-      </Helmet>
+   
       <div className="portfolio d-flex justify-content-start align-items-center text-white flex-column">
         <h1>PORTFOLIO COMPONENT</h1>
         <div className="d-flex align-items-center my-3">

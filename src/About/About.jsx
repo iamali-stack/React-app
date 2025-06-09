@@ -1,13 +1,10 @@
 import React from 'react'
 import './About.css';
-import { Helmet } from 'react-helmet-async';
 
 export default function About() {
   return (
    <>
-    <Helmet>
-        <title>About</title>
-      </Helmet>
+  
    <div
         className="About d-flex justify-content-center align-items-center text-white flex-column"
         style={{ backgroundColor: '#19BC9B', minHeight: '100vh' }}
