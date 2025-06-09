@@ -1,0 +1,13 @@
+.About h1,
+.About span {
+    background-color: #19BC9B;
+  font-weight: bold;
+}
+
+.About .content {
+    display: flex;
+    justify-content: space-between;
+    width: 80% !important;
+ 
+}
+

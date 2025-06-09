@@ -1,0 +1,21 @@
+.footer
+{
+  padding: rem 0 !important;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white !important;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.social-icon i
+{
+  color: white !important;
+}

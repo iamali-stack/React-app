@@ -1,0 +1,15 @@
+.home {
+    min-height: 100vh;
+    width: 100%;
+
+}
+.home h1{
+    
+    font-weight: 700 !important;
+    
+}
+
+.home img {
+    width: 250px;
+    margin-bottom: 2rem;
+}
