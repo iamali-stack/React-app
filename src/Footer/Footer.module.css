@@ -3,7 +3,12 @@
   padding: rem 0 !important;
 }
 
-.social-icon {
+.cardBg
+{
+  background-color: transparent !important;
+ 
+}
+.socialIcon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -13,9 +18,9 @@
   border-radius: 50%;
   color: white !important;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+
 }
-.social-icon i
+.socialIcon i
 {
   color: white !important;
 }

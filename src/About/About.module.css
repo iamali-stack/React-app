@@ -1,0 +1,24 @@
+.about {
+  background-color: #19BC9B;
+  
+}
+
+.aboutTitle {
+  font-weight: bold;
+}
+
+.aboutLine {
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80% !important;
+  gap: 60px;
+}
+
+.left, .right {
+  flex: 1;
+}
+

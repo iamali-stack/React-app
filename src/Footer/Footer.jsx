@@ -1,5 +1,6 @@
 import React from 'react'
-import './Footer.css';
+import style from './Footer.module.css';
+
 
 
 export default function Footer() {
@@ -23,28 +24,26 @@ export default function Footer() {
 
           {/* Around the Web Card */}
           <div className="col-md-4 mb-4">
-            <div className="card text-white" style={{ backgroundColor: 'transparent', border: 'none' }}>
+            <div className={`card text-white ${style.cardBg}`} style={{ border: 'none' }}>
               <div className="card-body text-center">
                 <h3 className="card-title text-uppercase mb-3">Around the Web</h3>
                 <div className="d-flex justify-content-center">
-                  <a href="#" className="social-icon me-3">
+                  <a href="#" className={`${style.socialIcon} me-3`}>
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#" className="social-icon me-3">
+                  <a href="#" className={`${style.socialIcon} me-3`}>
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="#" className="social-icon me-3">
+                  <a href="#" className={`${style.socialIcon} me-3`}>
                     <i className="fab fa-linkedin-in"></i>
                   </a>
-                  <a href="#" className="social-icon">
+                  <a href="#" className={style.socialIcon}>
                     <i className="fas fa-globe"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* About Freelancer Card */}
           <div className="col-md-4 mb-4">
             <div className="card text-white" style={{ backgroundColor: 'transparent', border: 'none' }}>
               <div className="card-body text-center">

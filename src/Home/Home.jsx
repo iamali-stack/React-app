@@ -1,14 +1,13 @@
 import React from 'react'
-import './Home.css';
+import style from './Home.module.css';
 import avatar from '../assets/avataaars.svg';
 
 
 export default function Home() {
   return (
     <>
-     
       <div
-        className="home d-flex justify-content-center align-items-center text-white flex-column"
+        className={`${style.home} d-flex justify-content-center align-items-center text-white flex-column`}
         style={{ backgroundColor: '#19BC9B', minHeight: '100vh' }}
       >
         <img src={avatar} alt="Avatar" />
@@ -19,6 +18,7 @@ export default function Home() {
           <span style={{ display: 'inline-block', width: 80, height: 4, background: '#fff', marginLeft: 10 }}></span>
         </div>
         <p>Graphic Artist - Web Designer - Illustrator</p>
+
       </div>
     </>
   )
