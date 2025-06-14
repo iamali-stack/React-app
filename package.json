@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://iamali-stack.github.io/React-app",
+  "homepage": "https://iamali-stack.github.io/Reactapp",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
