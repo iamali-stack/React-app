@@ -18,11 +18,17 @@ const router = createHashRouter([
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
-      { path: 'contact', element: <Contact /> },
-      { path: "*", element: <NotFound /> }
+      { path: "contact", element: <Contact /> },
+      { path: "*", element: <NotFound /> }, 
     ]
+  },
+
+  {
+    path: "*",
+    element: <NotFound />
   }
-])
+]);
+
 
 function App() {
   return (
